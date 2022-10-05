@@ -1,0 +1,395 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sat Jun  4 16:37:05 2022
+# Process ID: 1604
+# Current directory: M:/2010/Vivado_2_kurs_schem/IVBO-01/Khomyakova/project_6/project_6.runs/synth_2
+# Command line: vivado.exe -log Module.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Module.tcl
+# Log file: M:/2010/Vivado_2_kurs_schem/IVBO-01/Khomyakova/project_6/project_6.runs/synth_2/Module.vds
+# Journal file: M:/2010/Vivado_2_kurs_schem/IVBO-01/Khomyakova/project_6/project_6.runs/synth_2\vivado.jou
+#-----------------------------------------------------------
+source Module.tcl -notrace
+Command: synth_design -top Module -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 3464 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 810.445 ; gain = 177.805
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Module' [M:/2010/Vivado_2_kurs_schem/IVBO-01/Khomyakova/project_6/project_6.srcs/sources_1/new/Module.v:2]
+INFO: [Synth 8-6157] synthesizing module 'Div_clk' [M:/2010/Vivado_2_kurs_schem/IVBO-01/Khomyakova/project_6/project_6.srcs/sources_1/new/Div_clk.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'Div_clk' (1#1) [M:/2010/Vivado_2_kurs_schem/IVBO-01/Khomyakova/project_6/project_6.srcs/sources_1/new/Div_clk.v:2]
+INFO: [Synth 8-6157] synthesizing module 'Counter' [M:/2010/Vivado_2_kurs_schem/IVBO-01/Khomyakova/project_6/project_6.srcs/sources_1/new/Counter.v:3]
+	Parameter mod bound to: 9 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Counter' (2#1) [M:/2010/Vivado_2_kurs_schem/IVBO-01/Khomyakova/project_6/project_6.srcs/sources_1/new/Counter.v:3]
+INFO: [Synth 8-6157] synthesizing module 'Indicator' [M:/2010/Vivado_2_kurs_schem/IVBO-01/Khomyakova/project_6/project_6.srcs/sources_1/new/Indicator.v:3]
+INFO: [Synth 8-226] default block is never used [M:/2010/Vivado_2_kurs_schem/IVBO-01/Khomyakova/project_6/project_6.srcs/sources_1/new/Indicator.v:15]
+INFO: [Synth 8-6155] done synthesizing module 'Indicator' (3#1) [M:/2010/Vivado_2_kurs_schem/IVBO-01/Khomyakova/project_6/project_6.srcs/sources_1/new/Indicator.v:3]
+INFO: [Synth 8-6157] synthesizing module 'Contact_bounce_destroyer' [M:/2010/Vivado_2_kurs_schem/IVBO-01/Khomyakova/project_6/project_6.srcs/sources_1/new/Contact_bounce_destroyer.v:3]
+INFO: [Synth 8-6157] synthesizing module 'Synchronizer' [M:/2010/Vivado_2_kurs_schem/IVBO-01/Khomyakova/project_6/project_6.srcs/sources_1/new/Synchronizer.v:3]
+INFO: [Synth 8-6157] synthesizing module 'D_trigger' [M:/2010/Vivado_2_kurs_schem/IVBO-01/Khomyakova/project_6/project_6.srcs/sources_1/new/D_trigger.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'D_trigger' (4#1) [M:/2010/Vivado_2_kurs_schem/IVBO-01/Khomyakova/project_6/project_6.srcs/sources_1/new/D_trigger.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'Synchronizer' (5#1) [M:/2010/Vivado_2_kurs_schem/IVBO-01/Khomyakova/project_6/project_6.srcs/sources_1/new/Synchronizer.v:3]
+INFO: [Synth 8-6157] synthesizing module 'Counter__parameterized0' [M:/2010/Vivado_2_kurs_schem/IVBO-01/Khomyakova/project_6/project_6.srcs/sources_1/new/Counter.v:3]
+	Parameter mod bound to: 8 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Counter__parameterized0' (5#1) [M:/2010/Vivado_2_kurs_schem/IVBO-01/Khomyakova/project_6/project_6.srcs/sources_1/new/Counter.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'Contact_bounce_destroyer' (6#1) [M:/2010/Vivado_2_kurs_schem/IVBO-01/Khomyakova/project_6/project_6.srcs/sources_1/new/Contact_bounce_destroyer.v:3]
+INFO: [Synth 8-6157] synthesizing module 'StateMachine' [M:/2010/Vivado_2_kurs_schem/IVBO-01/Khomyakova/project_6/project_6.srcs/sources_1/new/StateMachine.v:3]
+WARNING: [Synth 8-6014] Unused sequential element n_reg was removed.  [M:/2010/Vivado_2_kurs_schem/IVBO-01/Khomyakova/project_6/project_6.srcs/sources_1/new/StateMachine.v:12]
+WARNING: [Synth 8-6014] Unused sequential element m_reg was removed.  [M:/2010/Vivado_2_kurs_schem/IVBO-01/Khomyakova/project_6/project_6.srcs/sources_1/new/StateMachine.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'StateMachine' (7#1) [M:/2010/Vivado_2_kurs_schem/IVBO-01/Khomyakova/project_6/project_6.srcs/sources_1/new/StateMachine.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'Module' (8#1) [M:/2010/Vivado_2_kurs_schem/IVBO-01/Khomyakova/project_6/project_6.srcs/sources_1/new/Module.v:2]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 874.508 ; gain = 241.867
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 874.508 ; gain = 241.867
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 874.508 ; gain = 241.867
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [M:/2010/Vivado_2_kurs_schem/IVBO-01/Khomyakova/project_6/project_6.srcs/constrs_1/new/Dev.xdc]
+Finished Parsing XDC File [M:/2010/Vivado_2_kurs_schem/IVBO-01/Khomyakova/project_6/project_6.srcs/constrs_1/new/Dev.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [M:/2010/Vivado_2_kurs_schem/IVBO-01/Khomyakova/project_6/project_6.srcs/constrs_1/new/Dev.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Module_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Module_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 984.547 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.027 . Memory (MB): peak = 984.547 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:14 . Memory (MB): peak = 984.547 ; gain = 351.906
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:14 . Memory (MB): peak = 984.547 ; gain = 351.906
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:14 . Memory (MB): peak = 984.547 ; gain = 351.906
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'StateMachine'
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE4 |                      00000000001 |                             0000
+                 iSTATE3 |                      00000000010 |                             0001
+                  iSTATE |                      00000000100 |                             0011
+                 iSTATE1 |                      00000001000 |                             0010
+                 iSTATE0 |                      00000010000 |                             0100
+                 iSTATE9 |                      00000100000 |                             0101
+                 iSTATE8 |                      00001000000 |                             1000
+                 iSTATE6 |                      00010000000 |                             1001
+                 iSTATE5 |                      00100000000 |                             0111
+                 iSTATE7 |                      01000000000 |                             0110
+                 iSTATE2 |                      10000000000 |                             1010
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'StateMachine'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:15 . Memory (MB): peak = 984.547 ; gain = 351.906
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 2     
++---XORs : 
+	   2 Input      1 Bit         XORs := 2     
++---Registers : 
+	               32 Bit    Registers := 1     
+	               16 Bit    Registers := 1     
+	                8 Bit    Registers := 3     
+	                4 Bit    Registers := 3     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 9     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 2     
+	  11 Input     16 Bit        Muxes := 1     
+	   2 Input     15 Bit        Muxes := 4     
+	   3 Input     15 Bit        Muxes := 3     
+	  11 Input     11 Bit        Muxes := 1     
+	   2 Input     11 Bit        Muxes := 12    
+	  11 Input      4 Bit        Muxes := 1     
+	  11 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module Module 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                8 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
+Module Counter 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 1     
++---Registers : 
+	                4 Bit    Registers := 1     
+Module Indicator 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+Module D_trigger 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module Counter__parameterized0 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	                4 Bit    Registers := 1     
+Module Contact_bounce_destroyer 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
+Module StateMachine 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 2     
+	  11 Input     16 Bit        Muxes := 1     
+	   2 Input     15 Bit        Muxes := 4     
+	   3 Input     15 Bit        Muxes := 3     
+	  11 Input     11 Bit        Muxes := 1     
+	   2 Input     11 Bit        Muxes := 12    
+	  11 Input      4 Bit        Muxes := 1     
+	  11 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-3886] merging instance 'st_machine/FSM_onehot_state_reg[10]' (FDE) to 'st_machine/value_reg[11]'
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:19 . Memory (MB): peak = 984.547 ; gain = 351.906
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:26 . Memory (MB): peak = 984.547 ; gain = 351.906
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:26 . Memory (MB): peak = 984.547 ; gain = 351.906
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:18 ; elapsed = 00:00:26 . Memory (MB): peak = 988.457 ; gain = 355.816
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:20 ; elapsed = 00:00:28 . Memory (MB): peak = 993.246 ; gain = 360.605
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:20 ; elapsed = 00:00:28 . Memory (MB): peak = 993.246 ; gain = 360.605
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:20 ; elapsed = 00:00:28 . Memory (MB): peak = 993.246 ; gain = 360.605
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:20 ; elapsed = 00:00:28 . Memory (MB): peak = 993.246 ; gain = 360.605
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:20 ; elapsed = 00:00:28 . Memory (MB): peak = 993.246 ; gain = 360.605
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:20 ; elapsed = 00:00:28 . Memory (MB): peak = 993.246 ; gain = 360.605
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     3|
+|2     |CARRY4 |     3|
+|3     |LUT1   |     2|
+|4     |LUT2   |     4|
+|5     |LUT3   |     7|
+|6     |LUT4   |    18|
+|7     |LUT5   |    12|
+|8     |LUT6   |    36|
+|9     |MUXF7  |     3|
+|10    |FDRE   |   112|
+|11    |IBUF   |     5|
+|12    |OBUF   |    16|
++------+-------+------+
+
+Report Instance Areas: 
++------+--------------------------+---------------------------+------+
+|      |Instance                  |Module                     |Cells |
++------+--------------------------+---------------------------+------+
+|1     |top                       |                           |   221|
+|2     |  but_reset               |Contact_bounce_destroyer   |    12|
+|3     |    OUT_SIGNAL_ENABLE_reg |D_trigger_4                |     1|
+|4     |    OUT_SIGNAL_reg        |D_trigger_5                |     1|
+|5     |    count                 |Counter__parameterized0_6  |     8|
+|6     |    sync                  |Synchronizer_7             |     2|
+|7     |      D1                  |D_trigger_8                |     1|
+|8     |      D2                  |D_trigger_9                |     1|
+|9     |  but_set                 |Contact_bounce_destroyer_0 |    12|
+|10    |    OUT_SIGNAL_ENABLE_reg |D_trigger                  |     1|
+|11    |    OUT_SIGNAL_reg        |D_trigger_1                |     1|
+|12    |    count                 |Counter__parameterized0    |     8|
+|13    |    sync                  |Synchronizer               |     2|
+|14    |      D1                  |D_trigger_2                |     1|
+|15    |      D2                  |D_trigger_3                |     1|
+|16    |  ctr                     |Counter                    |    34|
+|17    |  div                     |Div_clk                    |    13|
+|18    |  indicator               |Indicator                  |     8|
+|19    |  st_machine              |StateMachine               |    66|
++------+--------------------------+---------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:20 ; elapsed = 00:00:28 . Memory (MB): peak = 993.246 ; gain = 360.605
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:14 ; elapsed = 00:00:26 . Memory (MB): peak = 993.246 ; gain = 250.566
+Synthesis Optimization Complete : Time (s): cpu = 00:00:20 ; elapsed = 00:00:28 . Memory (MB): peak = 993.246 ; gain = 360.605
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 6 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1009.004 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+35 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:26 ; elapsed = 00:00:37 . Memory (MB): peak = 1009.004 ; gain = 654.191
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1009.004 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'M:/2010/Vivado_2_kurs_schem/IVBO-01/Khomyakova/project_6/project_6.runs/synth_2/Module.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Module_utilization_synth.rpt -pb Module_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat Jun  4 16:37:48 2022...
