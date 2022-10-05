@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sat Jun  4 16:37:56 2022
+# Process ID: 4452
+# Current directory: M:/2010/Vivado_2_kurs_schem/IVBO-01/Khomyakova/project_6/project_6.runs/impl_2
+# Command line: vivado.exe -log Module.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Module.tcl -notrace
+# Log file: M:/2010/Vivado_2_kurs_schem/IVBO-01/Khomyakova/project_6/project_6.runs/impl_2/Module.vdi
+# Journal file: M:/2010/Vivado_2_kurs_schem/IVBO-01/Khomyakova/project_6/project_6.runs/impl_2\vivado.jou
+#-----------------------------------------------------------
+source Module.tcl -notrace
