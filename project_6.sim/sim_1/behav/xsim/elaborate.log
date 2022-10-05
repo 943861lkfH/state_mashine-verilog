@@ -1,0 +1,24 @@
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 455a389f5c1b491fa5968d3c71836afe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot teasst_behav xil_defaultlib.teasst xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'en' [M:/2010/Vivado_2_kurs_schem/IVBO-01/Belov/project_3/project_3.srcs/sources_1/new/Synchronizer.v:10]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'en' [M:/2010/Vivado_2_kurs_schem/IVBO-01/Belov/project_3/project_3.srcs/sources_1/new/Contact_bounce_destroyer.v:16]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'en' [M:/2010/Vivado_2_kurs_schem/IVBO-01/Belov/project_3/project_3.srcs/sources_1/new/Synchronizer.v:11]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Div_clk
+Compiling module xil_defaultlib.Counter(mod=9)
+Compiling module xil_defaultlib.Indicator
+Compiling module xil_defaultlib.D_trigger
+Compiling module xil_defaultlib.Synchronizer
+Compiling module xil_defaultlib.Counter(mod=8)
+Compiling module xil_defaultlib.Contact_bounce_destroyer
+Compiling module xil_defaultlib.StateMachine
+Compiling module xil_defaultlib.Module
+Compiling module xil_defaultlib.teasst
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot teasst_behav

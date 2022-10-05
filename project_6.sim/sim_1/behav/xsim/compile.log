@@ -1,0 +1,20 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "M:/2010/Vivado_2_kurs_schem/IVBO-01/Belov/project_3/project_3.srcs/sources_1/new/Contact_bounce_destroyer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Contact_bounce_destroyer
+INFO: [VRFC 10-2263] Analyzing Verilog file "M:/2010/Vivado_2_kurs_schem/IVBO-01/Belov/project_3/project_3.srcs/sources_1/new/Counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Counter
+INFO: [VRFC 10-2263] Analyzing Verilog file "M:/2010/Vivado_2_kurs_schem/IVBO-01/Belov/project_3/project_3.srcs/sources_1/new/D_trigger.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module D_trigger
+INFO: [VRFC 10-2263] Analyzing Verilog file "M:/2010/Vivado_2_kurs_schem/IVBO-01/Belov/project_3/project_3.srcs/sources_1/new/Div_clk.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Div_clk
+INFO: [VRFC 10-2263] Analyzing Verilog file "M:/2010/Vivado_2_kurs_schem/IVBO-01/Belov/project_3/project_3.srcs/sources_1/new/Indicator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Indicator
+INFO: [VRFC 10-2263] Analyzing Verilog file "M:/2010/Vivado_2_kurs_schem/IVBO-01/Belov/project_3/project_3.srcs/sources_1/new/Module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Module
+INFO: [VRFC 10-2263] Analyzing Verilog file "M:/2010/Vivado_2_kurs_schem/IVBO-01/Belov/project_3/project_3.srcs/sources_1/new/StateMachine.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module StateMachine
+INFO: [VRFC 10-2263] Analyzing Verilog file "M:/2010/Vivado_2_kurs_schem/IVBO-01/Belov/project_3/project_3.srcs/sources_1/new/Synchronizer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Synchronizer
+INFO: [VRFC 10-2263] Analyzing Verilog file "M:/2010/Vivado_2_kurs_schem/IVBO-01/Belov/project_3/project_3.srcs/sim_1/new/teasst.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module teasst
+INFO: [VRFC 10-2263] Analyzing Verilog file "M:/2010/Vivado_2_kurs_schem/IVBO-01/Belov/project_3/project_3.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

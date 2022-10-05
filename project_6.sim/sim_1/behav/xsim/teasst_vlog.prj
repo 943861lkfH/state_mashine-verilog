@@ -1,0 +1,17 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../project_3.srcs/sources_1/new/Contact_bounce_destroyer.v" \
+"../../../../project_3.srcs/sources_1/new/Counter.v" \
+"../../../../project_3.srcs/sources_1/new/D_trigger.v" \
+"../../../../project_3.srcs/sources_1/new/Div_clk.v" \
+"../../../../project_3.srcs/sources_1/new/Indicator.v" \
+"../../../../project_3.srcs/sources_1/new/Module.v" \
+"../../../../project_3.srcs/sources_1/new/StateMachine.v" \
+"../../../../project_3.srcs/sources_1/new/Synchronizer.v" \
+"../../../../project_3.srcs/sim_1/new/teasst.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
